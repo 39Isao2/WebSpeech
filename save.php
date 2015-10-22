@@ -15,21 +15,7 @@ fclose($json);
 
 
 
-
-//$json = file_get_contents('php://input');
-//$data = json_decode($json, true);
-
 /*
-$data = json_decode($_POST, true);
-
-
-$json = fopen('allPageInfo.txt', 'w+b');
-flock($json, LOCK_SH);
-fwrite($json, json_encode($data));
-fclose($json);
-
-
-
 
 header("Content-type: text/plain; charset=UTF-8");
 if (isset($_POST['request']))
